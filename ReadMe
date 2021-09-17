@@ -6,3 +6,8 @@ It then calls the method compress which uses a buffered reader and a for loop to
 It adds combinations of these chars with arbitrary, decimal askii values to dict. The for loop also converts these 
 decimals to binary before adding them to the string binaryString. binaryString is converted into a char array of 0s and 1s, 
 which is then converted to a byte array, which is then used by the FileOutputStream to write a binary file. 
+
+ROHAN: Ariana used 9 bits
+The decoder does not work, I am unsure if it is an issue with the decoder or your encoder
+It outputs something for file 1, but it is not right 
+It gets an error for file 3 
